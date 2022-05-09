@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Sở thích</title>
+    <style>
+        table{
+            /*width: 800px;*/
+            /*height: 400px;*/
+            border:10px solid aqua;
+        }
+        .st {
+            color: coral;
+
+        }
+        .mau{
+            color: blue;
+            text-align: right;
+
+        }
+        .head{
+            background-color:coral;
+            color: #dddddd;
+        }
+
+        /*td,th{*/
+        /*   border: 5px solid red;*/
+        /*    */
+
+    </style>
+</head>
+<body>
+<form>
+    <table method="get" action="Sở thích">
+        <tr class="head" >
+            <th colspan="4"> SỞ THÍCH CÁ NHÂN</th>
+        </tr>
+        <tr>
+            <td class="mau">Họ và tên </td>
+            <td colspan="3"> <form>
+                <label>
+                    <input type="text" size="30px">
+                </label>
+            </form>
+            </td>
+        </tr>
+        <tr>
+            <td class="mau">Email</td>
+            <td colspan="3"><label>
+                <input type="text">
+            </label></td>
+
+        </tr>
+        <tr class="st">
+            <td class="mau" >Sở Thích</td>
+            <td>
+                <input type="checkbox" id="st1" name="hobby">
+                <label for="st1">Thể Thao</label></td>
+            <td>
+                <input type="checkbox" name="hobby" id="st2">
+                <label for="st2">Âm nhạc</label></td>
+            <td>
+                <input type="checkbox" name="hobby" id="st3">
+                <label for="st3">Đọc sách</label></td>
+        </tr>
+        <tr class="st">
+            <td></td>
+            <td >
+                <input type="checkbox" name="hobby" id="st4">
+                <label for="st4">Lướt web</label></td>
+            <td>
+                <input type="checkbox" name="hobby" id="st5">
+                <label for="st5">Chơi game</label></td>
+            <td>
+                <input type="checkbox" name="hobby" id="st6">
+                <label for="st6">Điện ảnh</label></td>
+        </tr>
+        <tr class="st">
+            <td></td>
+            <td colspan="3">
+                <input type="checkbox" name="hobby" id="st7">
+                <label for="st7">Du lịch</label>
+            </td>
+        </tr>
+        <tr>
+            <td></td>
+            <td colspan="2" align="center">
+                <input type="submit" value="Gửi thông tin">
+                <input type="reset" value="Nhập lại">
+            </td>
+
+        </tr>
+
+
+    </table>
+</form>
+</body>
+</html>

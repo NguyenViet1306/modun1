@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>DKHV</title>
+  <style>
+    table {
+        width: 400px;
+        background-color: yellow;
+
+    }
+    .tieude {
+        color: blue;
+    }
+    .tieude1 {
+        color: blue;
+        background-color: aquamarine;
+    }
+
+  </style>
+</head>
+<body>
+<table>
+    <form>
+
+    <tr>
+        <th colspan="3" class="tieude1" >Đăng ký học viên </th>
+<!--        <th></th>-->
+<!--        <th></th>-->
+    </tr>
+    <tr>
+        <td class="tieude">Họ và tên</td>
+        <td  colspan="2"><label>
+            <input type="text"></label></td>
+<!--        <td></td>-->
+    </tr>
+    <tr>
+        <td class="tieude">Ngày sinh</td>
+        <td colspan="2"><label>
+            <input type="text" size="10"></label></td>
+<!--        <td></td>-->
+    </tr>
+    <tr>
+        <td class="tieude">Giới tính</td>
+        <td colspan="2"><input type="radio" name="gender" id="nam"><label for="nam">Nam</label>
+                        <input type="radio" name="gender" id="nu"><label for="nu">Nữ</label>
+        </td>
+<!--        <td></td>-->
+    </tr>
+    <tr>
+        <td class="tieude" style="vertical-align: top" >Địa chỉ</td>
+        <td><label for="address"></label><textarea id="address" cols="18" rows="3"></textarea></td>
+<!--        <td></td>-->
+    </tr>
+    <tr>
+        <td class="tieude"><label for="lop">Lớp</label> </td>
+        <td>
+            <select id="lop">
+                <option value="">--Chọn lớp--</option>
+                <option>Lớp 6</option>
+                <option>Lớp 7</option>
+                <option>Lớp 8</option>
+                <option>Lớp 9</option>
+            </select>
+        </td>
+    </tr>
+    <tr>
+        <td class="tieude" >Email</td>
+        <td><label>
+            <input type="email" size="15">
+        </label></td>
+<!--        <td></td>-->
+    </tr>
+    <tr>
+        <td class="tieude" >Điện thoại</td>
+        <td><label>
+            <input type="text" size="15">
+        </label></td>
+<!--        <td></td>-->
+    </tr>
+    <tr>
+        <td></td>
+        <td><input type="submit" value="Đăng ký" >
+            <input type="reset" value="Nhập lại"></td>
+<!--        <td></td>-->
+    </tr>
+    </form>
+</table>
+</body>
+</html>
